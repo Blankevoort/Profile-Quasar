@@ -1,8 +1,8 @@
 <template>
   <q-page>
-    <div class="flex justify-center items-center">
+    <div class="flex justify-center items-center gt-md">
       <q-bar class="bg-white" style="width: 80%; height: 50px">
-        <div class="text-weight-regular q-px-md">
+        <div class="text-weight-regular q-pr-md q-pl-none">
           <span class="material-symbols-outlined text-h5"> home </span>Home
         </div>
         <div class="q-ml-md text-weight-regular q-px-md">
