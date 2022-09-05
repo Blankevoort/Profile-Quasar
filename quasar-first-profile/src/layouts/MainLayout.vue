@@ -1,6 +1,6 @@
 <template>
   <q-layout view="lHh Lpr lFf">
-    <q-header class="shadow-2">
+    <q-header>
       <div class="flex justify-center items-center">
         <q-toolbar class="bg-primary text-white" style="width: 80%">
           <q-img
