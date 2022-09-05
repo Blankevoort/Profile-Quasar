@@ -139,6 +139,22 @@
                 </q-list>
               </q-menu>
             </q-item>
+            <div class="q-ml-md text-weight-regular q-px-md q-py-sm">
+              <span class="material-symbols-outlined text-h5"> home </span>Home
+            </div>
+            <div class="q-ml-md text-weight-regular q-px-md q-py-sm">
+              <span class="material-symbols-outlined text-h5"> group </span
+              >MyNetwork
+            </div>
+            <div class="q-ml-md text-weight-regular q-px-md q-py-sm">
+              <span class="material-symbols-outlined text-h5">
+                business_center </span
+              >Jobs
+            </div>
+            <div class="q-ml-md text-weight-regular q-px-md q-py-sm">
+              <span class="material-symbols-outlined text-h5"> chat </span
+              >Messages
+            </div>
           </q-drawer>
         </q-toolbar>
       </div>
