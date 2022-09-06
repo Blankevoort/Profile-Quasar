@@ -1,12 +1,17 @@
 <template>
   <q-layout view="lHh Lpr lFf">
     <q-header>
-      <div class="flex justify-center items-center gt-md">
+      <!-- Nav For Desktop -->
+
+      <div class="flex justify-center items-center gt-sm">
         <q-toolbar class="bg-primary text-white" style="width: 80%">
           <q-img
             src="../assets/images/LinkedIn-Logo.png"
             class="bg-white"
-            style="width: 24px; height: 24px"
+            width="24px"
+            height="24px"
+            style="border-radius: 50%"
+            alt="Your Profile Picture"
           />
           <q-input
             dark
@@ -47,12 +52,15 @@
 
           <q-item clickable v-ripple>
             <q-item-section>
-              <div class="q-ml-md">
+              <div class="q-ml-sm">
                 <q-item-label overline
                   ><q-img
                     src="../assets/images/LinkedIn-Logo.png"
                     class="bg-white"
-                    style="width: 35px; height: 35px; border-radius: 50%"
+                    width="35px"
+                    height="35px"
+                    style="border-radius: 50%"
+                    alt="Your Profile Picture"
                 /></q-item-label>
                 <q-item-label>Profile</q-item-label>
               </div>
@@ -74,6 +82,8 @@
           </q-item>
         </q-toolbar>
       </div>
+
+      <!-- Nav For Mobile -->
 
       <div class="flex justify-center items-center lt-md">
         <q-toolbar class="bg-primary text-white">
@@ -155,6 +165,12 @@
               <span class="material-symbols-outlined text-h5"> chat </span
               >Messages
             </div>
+
+            <q-space />
+
+            <div class="text-weight-regular q-px-md q-py-sm text-amber-7">
+              <q-btn flat rounded>Try Premium For Free</q-btn>
+            </div>
           </q-drawer>
         </q-toolbar>
       </div>
@@ -189,5 +205,9 @@ export default {
 a {
   text-decoration: none;
   color: black;
+}
+
+.q-page-container {
+  padding-right: 0 !important;
 }
 </style>

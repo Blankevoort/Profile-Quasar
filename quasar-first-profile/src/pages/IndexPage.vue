@@ -1,8 +1,10 @@
 <template>
   <q-page>
-    <div class="flex justify-center items-center">
+    <!-- Main Page Nav -->
+
+    <div class="flex justify-center items-center gt-sm">
       <q-bar class="bg-white" style="width: 80%; height: 50px">
-        <div class="text-weight-regular q-px-md">
+        <div class="text-weight-regular q-mr-lg">
           <span class="material-symbols-outlined text-h5"> home </span>Home
         </div>
         <div class="q-ml-md text-weight-regular q-px-md">
@@ -17,8 +19,127 @@
         <div class="q-ml-md text-weight-regular q-px-md">
           <span class="material-symbols-outlined text-h5"> chat </span>Messages
         </div>
+
+        <q-space />
+
+        <div class="text-amber-7 text-h5">Try Premium For Free</div>
       </q-bar>
     </div>
+
+    <!-- Gradient And Main Content -->
+
+    <div class="gradient full-width"></div>
+    <main class="flex justify-center items-center">
+      <div style="width: 80%">
+        <section>
+          <div>
+            <!-- Profile Picture And Connections -->
+
+            <div class="flex justify-center items-center">
+              <q-img
+                class="shadow-3 q-mr-sm"
+                src="../assets/images/LinkedIn-Logo.png"
+                width="95px"
+                height="95px"
+                style="border-radius: 50%"
+                alt="Person"
+              />
+              <span class="text-primary">+500</span><span> Connections</span>
+
+              <q-space />
+
+              <q-btn-dropdown
+                dropdown-icon="more_horiz"
+                class="q-px-sm q-mx-sm"
+                no-icon-animation
+              >
+                <q-list>
+                  <q-item clickable v-close-popup @click="onItemClick">
+                    <q-item-section>
+                      <q-item-label>Photos</q-item-label>
+                    </q-item-section>
+                  </q-item>
+
+                  <q-item clickable v-close-popup @click="onItemClick">
+                    <q-item-section>
+                      <q-item-label>Videos</q-item-label>
+                    </q-item-section>
+                  </q-item>
+
+                  <q-item clickable v-close-popup @click="onItemClick">
+                    <q-item-section>
+                      <q-item-label>Articles</q-item-label>
+                    </q-item-section>
+                  </q-item>
+                </q-list>
+              </q-btn-dropdown>
+              <q-btn
+                class="q-px-sm q-mx-sm"
+                icon="mark_email_read"
+                label="Message"
+              />
+              <q-btn
+                class="bg-primary q-px-sm text-white q-mx-sm"
+                icon="add"
+                label="Connect"
+              />
+            </div>
+
+            <!-- About -->
+
+            <div>
+              <div class="text-h5 text-weight-bold">Moeen Sedaqati</div>
+              <div>
+                Quasar, Vue, Laravel, Html, Css, Wordpress, Figma - Workin At
+                <a
+                  href="https://aytronic.com/"
+                  class="text-primary text-weight-bold"
+                  >Aytronic</a
+                >
+              </div>
+              <div class="text-grey-6">Iran Golestan, Gonbad-E Qabos</div>
+              <div>
+                <q-img
+                  src="../assets/images/LinkedIn-Logo.png"
+                  class=""
+                  width="30px"
+                  height="30px"
+                  style="border-radius: 50%"
+                />
+                <span
+                  >1 Mutual Connection:
+                  <span class="text-grey-6">Orlando Diggs</span></span
+                >
+              </div>
+
+              <div class="float-right">
+                <div>
+                  <q-img
+                    src="../assets/images/LinkedIn-Logo.png"
+                    class=""
+                    width="30px"
+                    height="30px"
+                    style="border-radius: 50%"
+                  />
+                  <span>Notion</span>
+                </div>
+
+                <div>
+                  <q-img
+                    src="../assets/images/LinkedIn-Logo.png"
+                    class=""
+                    width="30px"
+                    height="30px"
+                    style="border-radius: 50%"
+                  />
+                  <span>Harvard University</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
   </q-page>
 </template>
 
@@ -28,3 +149,15 @@ export default defineComponent({
   name: "IndexPage",
 });
 </script>
+
+<style>
+.gradient {
+  background: rgb(255, 248, 230);
+  background: linear-gradient(
+    142deg,
+    rgba(255, 248, 230, 1) 0%,
+    rgba(150, 205, 217, 1) 100%
+  );
+  height: 250px;
+}
+</style>
