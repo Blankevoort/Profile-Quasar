@@ -82,7 +82,7 @@
               </div>
             </div>
 
-            <!-- About -->
+            <!-- Profile -->
 
             <div class="q-pt-md row">
               <div class="col-8">
@@ -95,7 +95,7 @@
                     >Aytronic</a
                   >
                 </div>
-                <div class="text-grey-6">Iran Golestan, Gonbad-E Qabos</div>
+                <div class="text-grey-6">Iran Golestan, Gonbad-E Qabus</div>
                 <div>
                   <q-img
                     src="../assets/images/LinkedIn-Logo.png"
@@ -141,6 +141,47 @@
         </section>
 
         <q-separator class="q-my-lg" />
+
+        <!-- About -->
+
+        <div class="row">
+          <div class="col-6">
+            <q-toolbar>
+              <q-toolbar-title class="text-weight-bold">
+                About
+              </q-toolbar-title>
+              <a
+                href="https://moeensedaqati.ir"
+                class="text-primary text-weight-medium"
+                >moeensedaqati.ir <q-icon name="arrow_outward"
+              /></a>
+            </q-toolbar>
+            <div>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Consequatur rerum unde incidunt id, autem pariatur, voluptate aut
+              porro itaque ducimus commodi, illo amet quas voluptatibus ea. Eum
+              quod nemo tempora?
+            </div>
+          </div>
+
+          <q-separator vertical />
+
+          <div class="col-5">
+            <div class="text-weight-bold q-ml-md">People Also Viewed</div>
+            <q-item>
+              <q-item-section avatar>
+                <q-avatar>
+                  <img src="https://cdn.quasar.dev/img/boy-avatar.png" />
+                </q-avatar>
+              </q-item-section>
+
+              <q-item-section>
+                <q-item-label>Title</q-item-label>
+                <q-item-label caption> Subhead </q-item-label>
+              </q-item-section>
+            </q-item>
+          </div>
+        </div>
       </div>
     </main>
   </q-page>
