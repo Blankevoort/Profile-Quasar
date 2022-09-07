@@ -152,7 +152,7 @@
               </q-toolbar-title>
               <a
                 href="https://moeensedaqati.ir"
-                class="text-primary text-weight-medium"
+                class="text-primary text-weight-medium q-mr-lg q-pr-sm"
                 >moeensedaqati.ir <q-icon name="arrow_outward"
               /></a>
             </q-toolbar>
@@ -162,13 +162,42 @@
               porro itaque ducimus commodi, illo amet quas voluptatibus ea. Eum
               quod nemo tempora?
             </div>
+
+            <q-separator class="q-my-lg" />
+
+            <div class="text-weight-bold text-h6">Experience</div>
+
+            <q-card class="my-card" flat>
+              <q-card-section horizontal>
+                <q-card-section>
+                  <q-avatar>
+                    <img src="../assets/images/Aytronic-logo.png" />
+                  </q-avatar>
+                </q-card-section>
+                <q-card-section class="q-pt-xs">
+                  <div class="text-h5 q-mt-sm q-mb-xs">
+                    <a href="http://aytronic.com">Aytronic</a>
+                  </div>
+                  <div class="text-grey">Part-Time</div>
+                  <div class="text-grey">3 Month</div>
+                  <div class="text-caption text-grey q-mt-sm">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua.
+                  </div>
+                </q-card-section>
+              </q-card-section>
+            </q-card>
+            <q-separator class="q-my-md" />
           </div>
 
-          <q-separator vertical />
+          <q-separator vertical class="q-mx-lg" />
+
+          <!-- People Viewed This Website -->
 
           <div class="col-5">
-            <div class="text-weight-bold q-ml-md">People Also Viewed</div>
-            <q-item>
+            <div class="text-weight-bolder q-ml-md">People Also Viewed</div>
+            <q-item class="q-my-xs">
               <q-item-section avatar>
                 <q-avatar>
                   <img src="https://cdn.quasar.dev/img/boy-avatar.png" />
@@ -180,6 +209,78 @@
                 <q-item-label caption> Subhead </q-item-label>
               </q-item-section>
             </q-item>
+            <q-item class="q-my-xs">
+              <q-item-section avatar>
+                <q-avatar>
+                  <img src="https://cdn.quasar.dev/img/boy-avatar.png" />
+                </q-avatar>
+              </q-item-section>
+
+              <q-item-section>
+                <q-item-label>Title</q-item-label>
+                <q-item-label caption> Subhead </q-item-label>
+              </q-item-section>
+            </q-item>
+            <q-item class="q-my-xs">
+              <q-item-section avatar>
+                <q-avatar>
+                  <img src="https://cdn.quasar.dev/img/boy-avatar.png" />
+                </q-avatar>
+              </q-item-section>
+
+              <q-item-section>
+                <q-item-label>Title</q-item-label>
+                <q-item-label caption> Subhead </q-item-label>
+              </q-item-section>
+            </q-item>
+            <q-item class="q-my-xs">
+              <q-item-section avatar>
+                <q-avatar>
+                  <img src="https://cdn.quasar.dev/img/boy-avatar.png" />
+                </q-avatar>
+              </q-item-section>
+
+              <q-item-section>
+                <q-item-label>Title</q-item-label>
+                <q-item-label caption> Subhead </q-item-label>
+              </q-item-section>
+            </q-item>
+            <q-item class="q-my-xs">
+              <q-item-section avatar>
+                <q-avatar>
+                  <img src="https://cdn.quasar.dev/img/boy-avatar.png" />
+                </q-avatar>
+              </q-item-section>
+
+              <q-item-section>
+                <q-item-label>Title</q-item-label>
+                <q-item-label caption> Subhead </q-item-label>
+              </q-item-section>
+            </q-item>
+
+            <q-btn
+              class="full-width text-black"
+              icon-right="expand_more"
+              label="Show More"
+            />
+
+            <q-separator class="q-my-lg" />
+
+            <div class="q-mt-md">
+              <div class="text-weight-bolder q-ml-md">People You May Know</div>
+              <q-item class="q-my-xs">
+                <q-item-section avatar>
+                  <q-avatar>
+                    <img src="https://cdn.quasar.dev/img/boy-avatar.png" />
+                  </q-avatar>
+                </q-item-section>
+
+                <q-item-section>
+                  <q-item-label>Title</q-item-label>
+                  <q-item-label caption> Subhead </q-item-label>
+                </q-item-section>
+              </q-item>
+            </div>
           </div>
         </div>
       </div>
@@ -211,5 +312,17 @@ export default defineComponent({
 
 .top--70 {
   top: -70px;
+}
+
+.q-toolbar {
+  padding: 0;
+}
+
+.q-toolbar__title {
+  padding: 0;
+}
+
+.my-card {
+  width: 60%;
 }
 </style>
