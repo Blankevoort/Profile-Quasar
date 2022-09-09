@@ -168,8 +168,8 @@
 
             <q-space />
 
-            <div class="text-weight-regular q-px-md q-py-sm text-amber-7">
-              <q-btn flat rounded>Try Premium For Free</q-btn>
+            <div class="text-weight-regular q-ml-md q-px-md q-py-sm">
+              <a href="https://dribbble.com/shots/18687238-LinkedIn-Redesign-Profile" class="text-amber-7">Try Premium For Free</a>
             </div>
           </q-drawer>
         </q-toolbar>

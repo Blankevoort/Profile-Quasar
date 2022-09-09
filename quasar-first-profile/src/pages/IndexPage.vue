@@ -76,15 +76,45 @@
               <q-space />
 
               <div class="q-mt-md gt-md">
+                <!-- DropDownButton At Big Size -->
+
                 <q-btn-dropdown
                   dropdown-icon="more_horiz"
-                  class="q-px-sm q-mx-sm col-6"
+                  class="q-px-sm q-mx-sm gt-sm"
                   no-icon-animation
                 >
                   <q-list>
                     <q-item clickable v-close-popup @click="onItemClick">
+                      <q-item-section avatar>
+                        <q-avatar
+                          icon="folder"
+                          color="primary"
+                          text-color="white"
+                        />
+                      </q-item-section>
                       <q-item-section>
                         <q-item-label>Photos</q-item-label>
+                        <q-item-label caption>February 22, 2016</q-item-label>
+                      </q-item-section>
+                      <q-item-section side>
+                        <q-icon name="info" color="amber" />
+                      </q-item-section>
+                    </q-item>
+
+                    <q-item clickable v-close-popup @click="onItemClick">
+                      <q-item-section avatar>
+                        <q-avatar
+                          icon="assignment"
+                          color="secondary"
+                          text-color="white"
+                        />
+                      </q-item-section>
+                      <q-item-section>
+                        <q-item-label>Vacation</q-item-label>
+                        <q-item-label caption>February 22, 2016</q-item-label>
+                      </q-item-section>
+                      <q-item-section side>
+                        <q-icon name="info" color="amber" />
                       </q-item-section>
                     </q-item>
                   </q-list>
@@ -101,32 +131,69 @@
                 />
               </div>
 
-              <div class="q-mt-md lt-lg">
-                <div class="q-mt-md row justify-center align-center">
-                  <q-btn-dropdown
-                    dropdown-icon="more_horiz"
-                    class="q-px-sm q-mx-sm"
-                    no-icon-animation
-                  >
-                    <q-list>
-                      <q-item clickable v-close-popup @click="onItemClick">
-                        <q-item-section>
-                          <q-item-label>Photos</q-item-label>
-                        </q-item-section>
-                      </q-item>
-                    </q-list>
-                  </q-btn-dropdown>
-                  <q-btn
-                    class="q-px-sm q-mx-sm"
-                    icon="mark_email_read"
-                    label="Message"
-                  />
-                  <q-btn
-                    class="bg-primary q-px-sm text-white q-mx-sm q-mt-sm"
-                    icon="add"
-                    label="Connect"
-                  />
-                </div>
+              <div class="q-mt-md lt-md">
+                <!-- DropDownButton At Small Size -->
+
+                <q-btn-dropdown
+                  dropdown-icon="more_horiz"
+                  class="q-px-sm q-mx-sm lt-md"
+                  no-icon-animation
+                >
+                  <q-list>
+                    <q-item clickable v-close-popup @click="onItemClick">
+                      <q-item-section avatar>
+                        <q-avatar
+                          icon="folder"
+                          color="primary"
+                          text-color="white"
+                        />
+                      </q-item-section>
+                      <q-item-section>
+                        <q-item-label>Photos</q-item-label>
+                        <q-item-label caption>February 22, 2016</q-item-label>
+                      </q-item-section>
+                      <q-item-section side>
+                        <q-icon name="info" color="amber" />
+                      </q-item-section>
+                    </q-item>
+
+                    <q-item clickable v-close-popup @click="onItemClick">
+                      <q-item-section avatar>
+                        <q-avatar
+                          icon="assignment"
+                          color="secondary"
+                          text-color="white"
+                        />
+                      </q-item-section>
+                      <q-item-section>
+                        <q-item-label>Vacation</q-item-label>
+                        <q-item-label caption>February 22, 2016</q-item-label>
+                      </q-item-section>
+                      <q-item-section side>
+                        <q-icon name="info" color="amber" />
+                      </q-item-section>
+                    </q-item>
+                    <q-item clickable v-close-popup @click="onItemClick">
+                      <q-item-section>
+                        <q-btn
+                          class="q-px-sm q-mx-sm"
+                          icon="mark_email_read"
+                          label="Message"
+                        />
+                      </q-item-section>
+                    </q-item>
+
+                    <q-item clickable v-close-popup @click="onItemClick">
+                      <q-item-section>
+                        <q-btn
+                          class="bg-primary q-px-sm text-white q-mx-sm q-mt-sm"
+                          icon="add"
+                          label="Connect"
+                        />
+                      </q-item-section>
+                    </q-item>
+                  </q-list>
+                </q-btn-dropdown>
               </div>
             </div>
 
@@ -246,7 +313,7 @@
         <!-- About -->
 
         <div class="row">
-          <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+          <div class="col-md-5 col-lg-5 col-xl-5">
             <q-toolbar class="p-none">
               <q-toolbar-title class="text-weight-bold">
                 About
@@ -312,11 +379,13 @@
             <q-separator class="q-my-md" />
           </div>
 
-          <q-separator vertical class="q-mx-lg gt-md" />
+          <div class="col-2">
+            <q-separator vertical class="q-mx-lg gt-sm bg-grey-5" />
+          </div>
 
           <!-- People Viewed This Website -->
 
-          <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+          <div class="col-md-5 col-lg-5 col-xl-5">
             <div class="text-weight-bolder q-ml-md">People Also Viewed</div>
             <q-item class="q-my-xs">
               <q-item-section avatar>
