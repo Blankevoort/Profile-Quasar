@@ -43,7 +43,7 @@
                 <div class="relative-position top--70 col-1">
                   <q-img
                     class="shadow-3 q-mr-sm absolute"
-                    src="../assets/images/LinkedIn-Logo.png"
+                    src=""
                     width="95px"
                     height="95px"
                     style="border-radius: 50%"
@@ -60,7 +60,7 @@
                 <div class="relative-position top--55 col-1">
                   <q-img
                     class="shadow-3 q-mr-sm absolute"
-                    src="../assets/images/LinkedIn-Logo.png"
+                    src=""
                     width="95px"
                     height="95px"
                     style="border-radius: 50%"
@@ -395,8 +395,7 @@
               </q-item-section>
 
               <q-item-section>
-                <q-item-label>Title</q-item-label>
-                <q-item-label caption> Subhead </q-item-label>
+                <q-item-label>Username</q-item-label>
               </q-item-section>
             </q-item>
             <q-item class="q-my-xs">
@@ -407,8 +406,7 @@
               </q-item-section>
 
               <q-item-section>
-                <q-item-label>Title</q-item-label>
-                <q-item-label caption> Subhead </q-item-label>
+                <q-item-label>Username</q-item-label>
               </q-item-section>
             </q-item>
             <q-item class="q-my-xs">
@@ -419,8 +417,7 @@
               </q-item-section>
 
               <q-item-section>
-                <q-item-label>Title</q-item-label>
-                <q-item-label caption> Subhead </q-item-label>
+                <q-item-label>Username</q-item-label>
               </q-item-section>
             </q-item>
             <q-item class="q-my-xs">
@@ -431,8 +428,7 @@
               </q-item-section>
 
               <q-item-section>
-                <q-item-label>Title</q-item-label>
-                <q-item-label caption> Subhead </q-item-label>
+                <q-item-label>Username</q-item-label>
               </q-item-section>
             </q-item>
             <q-item class="q-my-xs">
@@ -443,8 +439,7 @@
               </q-item-section>
 
               <q-item-section>
-                <q-item-label>Title</q-item-label>
-                <q-item-label caption> Subhead </q-item-label>
+                <q-item-label>Username</q-item-label>
               </q-item-section>
             </q-item>
 
@@ -466,8 +461,7 @@
                 </q-item-section>
 
                 <q-item-section>
-                  <q-item-label>Title</q-item-label>
-                  <q-item-label caption> Subhead </q-item-label>
+                  <q-item-label>Username</q-item-label>
                 </q-item-section>
               </q-item>
             </div>
