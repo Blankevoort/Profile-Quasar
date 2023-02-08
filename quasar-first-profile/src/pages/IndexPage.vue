@@ -85,36 +85,64 @@
                 >
                   <q-list>
                     <q-item clickable v-close-popup @click="onItemClick">
-                      <q-item-section avatar>
-                        <q-avatar
-                          icon="folder"
-                          color="primary"
-                          text-color="white"
-                        />
-                      </q-item-section>
                       <q-item-section>
-                        <q-item-label>Photos</q-item-label>
-                        <q-item-label caption>February 22, 2016</q-item-label>
-                      </q-item-section>
-                      <q-item-section side>
-                        <q-icon name="info" color="amber" />
-                      </q-item-section>
-                    </q-item>
-
-                    <q-item clickable v-close-popup @click="onItemClick">
-                      <q-item-section avatar>
-                        <q-avatar
-                          icon="assignment"
-                          color="secondary"
-                          text-color="white"
-                        />
-                      </q-item-section>
-                      <q-item-section>
-                        <q-item-label>Vacation</q-item-label>
-                        <q-item-label caption>February 22, 2016</q-item-label>
-                      </q-item-section>
-                      <q-item-section side>
-                        <q-icon name="info" color="amber" />
+                        <q-item-label
+                          ><q-btn
+                            flat
+                            to="https://moeensedaqati.ir/1/index.html"
+                            >Page 1</q-btn
+                          ></q-item-label
+                        >
+                        <q-item-label
+                          ><q-btn
+                            flat
+                            to="https://moeensedaqati.ir/2/index.html"
+                            >Page 2</q-btn
+                          ></q-item-label
+                        ><q-item-label
+                          ><q-btn
+                            flat
+                            to="https://moeensedaqati.ir/3/index.html"
+                            >Page 3</q-btn
+                          ></q-item-label
+                        ><q-item-label
+                          ><q-btn
+                            flat
+                            to="https://moeensedaqati.ir/4/index.html"
+                            >Page 4</q-btn
+                          ></q-item-label
+                        ><q-item-label
+                          ><q-btn
+                            flat
+                            to="https://moeensedaqati.ir/5/index.html"
+                            >Page 5</q-btn
+                          ></q-item-label
+                        ><q-item-label
+                          ><q-btn
+                            flat
+                            to="https://moeensedaqati.ir/5/index.html"
+                            >Page 5</q-btn
+                          ></q-item-label
+                        ><q-item-label
+                          ><q-btn
+                            flat
+                            to="https://moeensedaqati.ir/6/index.html"
+                            >Page 6</q-btn
+                          ></q-item-label
+                        ><q-item-label
+                          ><q-btn
+                            flat
+                            to="https://moeensedaqati.ir/7/index.html"
+                            >Page 7</q-btn
+                          ></q-item-label
+                        >
+                        <q-item-label
+                          ><q-btn
+                            flat
+                            to="https://moeensedaqati.ir/8/index.html"
+                            >Page 8</q-btn
+                          ></q-item-label
+                        >
                       </q-item-section>
                     </q-item>
                   </q-list>
@@ -192,7 +220,7 @@
                             >Page 7</q-btn
                           ></q-item-label
                         >
-                        ><q-item-label
+                        <q-item-label
                           ><q-btn
                             flat
                             to="https://moeensedaqati.ir/8/index.html"
